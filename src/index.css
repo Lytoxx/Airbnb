@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.Logo {
+    width : 100px;
+}
+.Header{
+    position: sticky ;
+    top: 0;
+    z-index:100;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #ff385c;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+.Brand{
+    margin: 0px;
+    padding: 0px;
+}
+.Image {
+    position: relative;    
+    left: 120px;
+    margin-bottom: 30px;
+}
+.About{
+    margin: 20px;
+    font-family: 'Arial', Courier, monospace;
+    max-width: 500px ;
+    font-size: large;
+    word-wrap: break-word;
+}
+.Card{
+    margin:10px 30px ;
+    display: inline-block;
+    position: relative;
+}
+.CardImg{
+    border-radius: 10%;
+    width: 200px;
+    height: 250px;
+}
+.Pricing{
+    margin: 2px;
+}
+.Rating{
+    margin: 2px;
+}
+.Legend{
+  margin: 2px;
+  max-width: 200px;
+}
+.dollar{
+  font-weight: bold;
+}
+.gray{
+    color: #5e5a5a;
+}
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: fit-content;
+    overflow: scroll;
+}
+.OpenSpots {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background-color: black;
+    border-radius: 5%;
+    color: white;
+}
